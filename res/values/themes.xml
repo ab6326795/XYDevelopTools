@@ -1,0 +1,29 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light">
+          <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+
+     <style name="SuspensionFrameDialog" parent="@android:style/Theme.Translucent">
+        <item name="android:windowBackground">@color/half_transparent</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item> 
+        <item name="android:windowAnimationStyle">@style/SuspensionFrameDialog.Animation</item>     
+    </style>
+    
+    <style name="SuspensionFrameDialog.Animation">
+        <item name="android:windowEnterAnimation">@anim/activity_bottom_in</item>
+        <item name="android:windowExitAnimation">@anim/activity_bottom_out</item>
+    </style>
+</resources>

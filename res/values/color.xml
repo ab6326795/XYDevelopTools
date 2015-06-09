@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="navigation_drawer_bgcolor">#ff353535</color>
+    <color name="item_pressed_color">#f1f1f1</color>
+    
+    <color name="full_transparent">#00000000</color>
+    <color name="half_transparent">#aa000000</color>
+    
+    <color name="actionbar_color">#bf360c</color>
+    <color name="drawer_arrow_second_color">#303f9f</color>
+</resources>
